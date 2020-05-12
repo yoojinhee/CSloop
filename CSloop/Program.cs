@@ -21,12 +21,13 @@ namespace CSloop
 
             string[] array = { "사과", "배", "포도", "딸기", "바나나" };
 
-            foreach (string item in array)
+            foreach (string item in array)// => (var item in array)
             {
                 Console.WriteLine(item);
             }
 
-            foreach (var item in array)
+            int[] iarr = new int[10];
+            foreach(var item in iarr)
             {
                 Console.WriteLine(item);
             }
